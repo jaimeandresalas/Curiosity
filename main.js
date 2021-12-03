@@ -18,13 +18,13 @@ var PORT = 8080;
 
 global._ENVIRONMENT_ = 'developing'//'production';
 global._IS_DEV_ = false;
-global._SERVER = 'http://167.99.60.223/';
+global._SERVER = 'http://34.125.28.241/';
 
 if (process.argv.length >= 3) {
     if (process.argv[2] === 'developing') {
         _ENVIRONMENT_ = 'developing';
         _IS_DEV_ = true;
-        _SERVER = 'http://167.99.60.223/';
+        _SERVER = 'http://34.125.28.241/';
         PORT = 39123;
     }
 }
