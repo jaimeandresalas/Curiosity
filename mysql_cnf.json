@@ -1,0 +1,8 @@
+{
+    "host": "10.182.0.2",
+    "user": "node1",
+    "password": "JASM_NODE2021.",
+    "connectionLimit": 10,
+    "multipleStatements": false,
+    "charset": "utf8mb4"
+}
